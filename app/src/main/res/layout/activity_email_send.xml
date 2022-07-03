@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmailSend"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Send Proof of your volunteer hours to your school"
+        android:textSize="17sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="To:"
+        android:textSize="15sp"
+        android:fontFamily="@font/montserrat"
+
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:id="@+id/emailAddress"
+        android:hint="Email Address"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Subject:"
+        android:textSize="15sp"
+        android:fontFamily="@font/montserrat"
+
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:id="@+id/subject"
+        android:hint="Subject"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Messeage:(Recomended to include time spent and school name ) :"
+        android:textSize="15sp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/black"/>
+
+
+    <EditText
+        android:id="@+id/nameSchool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:hint="School Name" />
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/sendBtn"
+        android:layout_height="50dp"
+        android:text="Send"
+        android:textSize="21sp"
+        android:layout_margin="26sp" />
+
+
+
+
+</LinearLayout>

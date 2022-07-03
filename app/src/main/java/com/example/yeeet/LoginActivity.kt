@@ -3,6 +3,7 @@ package com.example.yeeet
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import android.widget.Toast
 import com.example.yeeet.databinding.ActivityLoginBinding
 import com.google.firebase.auth.FirebaseAuth

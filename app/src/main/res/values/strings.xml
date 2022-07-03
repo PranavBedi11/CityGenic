@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">Yeeet</string>
-    <string name="started_title">Hello Buddy!</string>
-    <string name="started_sub_title">Nice to meet u come join us.<br><b> Login</b> if you already have an account.</br><br><b> Register</b> to get Started with the app.</br>
+    <string name="started_title">Welcome to CityGenic</string>
+    <string name="started_sub_title">The purpose of City Genic .<br> Is to create a platform for people of all ages to</br><br> not on clean but upload areas such as beaches, parks, sidewalks and recreational centers of our city that need cleaning</br>
     </string>
     <string name="illustration_img">Illustration Image</string>
     <string name="btn_register">REGISTER</string>
     <string name="btn_login">LOG IN</string>
-    <string name="login_title">Login To Our App</string>
+    <string name="login_title">Login</string>
     <string name="login_sub_title"><font color="#00C9B8"><b>Login</b></font> If you already have an account</string>
-    <string name="Login_email">Your Email or Username</string>
+    <string name="Login_email">Your Email</string>
     <string name="Login_pass">Your Password</string>
     <string name="login_havent_account">I do not have an account<font color="#00C9B8"><b> Register</b></font></string>
     <string name="register_title">Create An Account</string>
@@ -17,5 +17,15 @@
     <string name="register_username">Your Email</string>
     <string name="register_have_account">I have an account<font color="#00C9B8"><b> Login</b></font></string>
     <string name="BTN_register">Register</string>
+    <string name="home_title">Find Places to Clean</string>
+    <string name="title_beach">Beach</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="lakeshore_title">Lake\nShore</string>
+    <string-array name="Hours">
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+    </string-array>
+
 
 </resources>
